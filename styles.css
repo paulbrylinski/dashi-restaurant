@@ -1,0 +1,46 @@
+
+.bg-primary{
+	background-color: rgb(255, 183, 77)!important;
+} 
+.bg-light{
+	background-color: rgb(245, 124, 0)!important;
+}
+.bg-secondary{
+	background-color: rgb(153, 102, 51)!important;
+}
+.border-3{
+	border-width: 3px !important;
+}
+.small-pic{
+	width: 150px !important;
+}
+.med-pic{
+	width: 200px !important;
+}
+.head_image{
+	perspective: 1000px;
+}
+@media screen and (min-width:200px){
+	.head_image{
+		width: 150px;
+	}
+	.head_image1{
+		width: 200px;
+	}
+}
+@media screen and (min-width:500px){
+	.head_image{
+		width: 250px;
+	}
+	.head_image1{
+		width: 300px;
+	}
+}
+@media screen and (min-width:700px){
+	.head_image{
+		width: 350px;
+	}
+	.head_image1{
+		width: 500px;
+	}
+}
